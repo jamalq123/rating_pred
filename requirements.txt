@@ -1,0 +1,13 @@
+streamlit
+newspaper3k
+googletrans==4.0.0-rc1
+nltk
+pandas
+sklearn.model_selection
+sklearn.compose
+sklearn.preprocessing
+sklearn.pipeline
+sklearn.ensemble
+sklearn.linear_model
+sklearn.metrics
+
