@@ -9,7 +9,7 @@ from sklearn.linear_model import LinearRegression, Ridge, Lasso
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load data
-data = pd.read_excel('G:\ECOMMERCE ACCOUNTRS\Account\Monthly reporting\Month Wise Top Drmas data.xlsx', sheet_name='tARGET DATA')
+data = pd.read_excel('media_ratings.xlsx')
 
 # Replace directors and writers with only 1 or 2 dramas with "Others"
 min_contributions = 3  # Minimum number of contributions to not be considered "Others"
